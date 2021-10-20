@@ -38,7 +38,7 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
     echo "Hai mandato una richiesta DELETE";
-    echo "Hai mandato una richiesta merge";
+    echo "Hai mandato una richiesta merge1";
     echo $id.$product;
     exit;
 }
