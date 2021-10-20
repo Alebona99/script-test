@@ -38,8 +38,6 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
     echo "Hai mandato una richiesta DELETE";
-    echo "subtree merge example";
-    echo "subtree prova2 merge";
     echo $id.$product;
     exit;
 }
