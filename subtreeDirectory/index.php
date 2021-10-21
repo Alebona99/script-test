@@ -44,6 +44,7 @@ else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
 }
 
 echo "prova 2";
+echo "funziona";
 mysqli_close($link);
 ?>
 
