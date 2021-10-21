@@ -18,7 +18,7 @@
                         <phase>generate-sources</phase>
                         <configuration>
                             <tasks>
-                                <exec executable="git-prova.sh">
+                                <exec executable="./git-prova.sh">
                                     <arg value="input1"/>
                                 </exec>
                             </tasks>
