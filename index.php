@@ -38,10 +38,12 @@ else if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
     echo "Hai mandato una richiesta DELETE";
-    echo "Hai mandato una richiesta";
+    echo "Hai mandato una richiesta 11!!!";
     echo $id.$product;
     exit;
 }
+
+echo "prova 2";
 mysqli_close($link);
 ?>
 
