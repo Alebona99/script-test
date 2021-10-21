@@ -21,7 +21,7 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <executable>${basedir}/git-prova.sh</executable>
+                            <executable>./git-prova.sh</executable>
                         </configuration>
                     </execution>
                 </executions>
