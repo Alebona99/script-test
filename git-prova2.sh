@@ -2,12 +2,12 @@
 
 # switch back to tracking branch, fetch & rebase.
 git remote add -f test https://github.com/Alebona99/test_repo.git
-git checkout upstream/jsdoc
-git pull jsdoc-upstream/master
+git checkout master
+git pull test/master
 
 # update the separate branch with changes from upstream
-git subtree split -q --prefix=templates/default --annotate="[jsdoc] " --rejoin -b merging/jsdoc
+git subtree split -q --prefix=prova1 --rejoin -b merging/script
 
 # switch back to master and use subtree merge to update the subdirectory
-git checkout master
-git subtree merge -q --prefix=templates/default --squash merging/jsdoc
+git checkout main
+git subtree merge -q --prefix=templates/default --squash merging/script
