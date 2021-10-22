@@ -11,3 +11,4 @@ git subtree split -q --prefix=subtreeDirectory/prova1 --rejoin -b merging/script
 # switch back to master and use subtree merge to update the subdirectory
 git checkout main
 git subtree merge -q --prefix=subtreeDirectory/prova1 --squash merging/script
+git push main
