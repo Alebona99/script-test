@@ -3,7 +3,7 @@
 # switch back to tracking branch, fetch & rebase.
 git remote add -f test https://github.com/Alebona99/test_repo.git
 git checkout --track origin/master
-git pull test/master
+git pull
 
 # update the separate branch with changes from upstream
 git subtree split -q --prefix=prova1 --rejoin -b merging/script
