@@ -6,7 +6,7 @@ git checkout --track origin/master
 git pull
 
 # update the separate branch with changes from upstream
-git subtree split -q --prefix=prova1 --rejoin -b merging/script
+git subtree split -q --prefix=subtreeDirectory/prova1 --rejoin -b merging/script
 
 # switch back to master and use subtree merge to update the subdirectory
 git checkout main
