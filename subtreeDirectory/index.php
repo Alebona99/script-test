@@ -45,7 +45,7 @@ else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
 
 echo "prova 2";
 echo "funziona";
-echo "ciao";
+echo "ciao pippa";
 mysqli_close($link);
 ?>
 
