@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # switch back to tracking branch, fetch & rebase.
+git remote add -f test https://github.com/Alebona99/test_repo.git
 git checkout upstream/jsdoc
 git pull jsdoc-upstream/master
 
