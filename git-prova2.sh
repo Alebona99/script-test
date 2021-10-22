@@ -10,4 +10,4 @@ git subtree split -q --prefix=prova1 --rejoin -b merging/script
 
 # switch back to master and use subtree merge to update the subdirectory
 git checkout main
-git subtree merge -q --prefix=templates/default --squash merging/script
+git subtree merge -q --prefix=prova1 --squash merging/script
