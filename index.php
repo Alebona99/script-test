@@ -42,10 +42,6 @@ else if ($_SERVER["REQUEST_METHOD"=="DELETE"]){
     echo $id.$product;
     exit;
 }
-
-echo "prova 2";
-echo "funziona";
-echo "ciao pippa";
 mysqli_close($link);
 ?>
 
